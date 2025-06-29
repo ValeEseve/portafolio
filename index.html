@@ -1,11 +1,236 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio - Vale Esevé</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Vale Esevé</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+
+
+  <body>
+    <nav class="navbar navbar-expand-lg bs-primary text-white">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img src="./assets/img/Logo_PurpleBG.png" alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about_me">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#technologies">Technologies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#education">Education</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <!-- GREETING -->
+      <section class="d-flex justify-content-center mb-3">
+        <div class="bs-primary-subtle greeting">
+          <img src="./assets/img/ImagenPixelart.png" alt="Pixel art portrait" />
+          <h2 class="fw-bold">I'M VALENTINA SEGURA</h2>
+          <h5>a.k.a. Vale Esevé!</h5>
+          <p>
+            A passionate Full Stack Web Developer in training, currently focused
+            on building with Python/Django and React/Node.js
+          </p>
+        </div>
+      </section>
+      <!-- ABOUT ME -->
+      <section id="about_me" class="d-flex flex-column align-items-center p-5">
+        <h3 class="fw-bold">ABOUT ME_</h3>
+        <p>
+          Since childhood, I’ve been deeply interested in both technology and
+          the arts. My first encounter with programming was through the Warcraft
+          III map editor, where I learned to build mini-maps, code encounters,
+          and create cinematics. <br />
+          Even though programming fascinated me, I initially saw it as a hobby
+          and pursued a more humanistic path. I studied Pedagogy and Social Work
+          — but life had other plans and eventually led me to where I truly
+          belong: the world of IT. <br />
+          What truly motivates me is developing meaningful solutions that can
+          have a positive impact on the world. <br />
+          Currently, I'm focusing on web development with Python and JavaScript,
+          but I’m excited to eventually explore how these skills intersect with
+          DevOps and IoT. <br />
+          I’m committed to building a long-term career in tech, and I’ve found
+          that my background gives me a unique lens to approach technical
+          challenges.
+        </p>
+      </section>
+
+      <!-- PROJECTS -->
+      <section id="projects"
+        class="bs-primary-subtle w-100 d-flex flex-column align-items-center projects"
+      >
+        <h3 class="fw-bold">PROJECTS_</h3>
+        <div class="p-5">
+          <img
+            src="./assets/img/currencyconverter.jpeg"
+            alt="Currency Converter img"
+          />
+          <h4 class="fw-bold mt-3">Currency Converter</h4>
+          <a
+            href="https://github.com/ValeEseve/ConversorDeMoneda"
+            target="_blank"
+            >🔗 GitHub Repo
+          </a>
+          <p>
+            In this project, I learned to consume public APIs and display the
+            data in a clear and informative way.
+          </p>
+          <p>
+            <strong>Technologies:</strong> HTML, CSS, JavaScript, Bootstrap,
+            ExchangeRate API
+          </p>
+        </div>
+        <div class="p-5 w-100">
+          <img class="w-100" src="./assets/img/pizzeriamammamia.jpeg"
+          alt="Pizzeria Mamma Mia" img">
+          <h4 class="fw-bold mt-3">Pizzería Mamma Mia</h4>
+          <a
+            href="https://github.com/ValeEseve/PizzeriaMammaMia"
+            target="_blank"
+            >🔗 GitHub Repo
+          </a>
+          <p>
+            A page currently under construction using React and Bootstrap to
+            build a dynamic user interface.
+          </p>
+          <p><strong>Technologies:</strong> React, Bootstrap, JSX</p>
+        </div>
+      </section>
+      <!-- TECHNOLOOGIES -->
+      <section id="technologies"
+        class="d-flex flex-column flex-wrap align-items-center bs-primary-subtle technologies"
+      >
+        <h3 class="fw-bold">TECHNOLOGIES_</h3>
+        <h4 class="fw-bold mt-3 mb-3">Currently learning_</h4>
+        <div class="technologies__logos">
+          <img
+            class="technologies__logo"
+            src="./assets/img/technologies/Postgresql_elephant.svg.png"
+            alt="PostgreQl logo"
+          />
+          <img
+            class="technologies__logo"
+            src="./assets/img/technologies/react.png"
+            alt="PostgreQl logo"
+          />
+          <img
+            class="technologies__logo"
+            src="./assets/img/technologies/Node.js_logo.png"
+            alt="Node.js logo"
+          />
+          <img
+            class="technologies__logo"
+            src="./assets/img/technologies/django-icon.svg"
+            alt="Django logo"
+          />
+        </div>
+        <h4 class="fw-bold mt-3 mb-3">Also familiar with_</h4>
+        <div class="technologies__logos">
+          <img
+            class="technologies__logo"
+            src="./assets/img/technologies/html.png"
+            alt="HTML logo"
+          />
+          <img
+            class="technologies__logo"
+            src="./assets/img/technologies/CSS3_logo_and_wordmark.svg.png"
+            alt="CSS logo"
+          />
+          <img
+            class="technologies__logo"
+            src="./assets/img/technologies/JavaScript-logo.png"
+            alt="JavaScript logo"
+          />
+          <img
+            class="technologies__logo"
+            src="./assets/img/technologies/Bootstrap_logo.svg.png"
+            alt="Bootstrap logo"
+          />
+          <img
+            class="technologies__logo"
+            src="./assets/img/technologies/Python-logo-notext.svg.png"
+            alt="Python logo"
+          />
+          <img
+            class="technologies__logo"
+            src="./assets/img/technologies/Octicons-mark-github.svg"
+            alt="GitHub logo"
+          />
+        </div>
+      </section>
+      <!-- EDUCATION -->
+      <section id="education" class="education d-flex flex-column p-5 mt-5">
+        <h2 class="text-center pb-2"><strong>EDUCATION_</strong></h2>
+        <div class="d-flex align-items-center gap-5">
+          <img
+            class="education__logo"
+            src="./assets/img/technologies/JavaScript-logo.png"
+            alt="JavaScript logo"
+          />
+          <div>
+            <h3 class="pt-4">
+              <strong>Full Stack JavaScript – Desafío Latam</strong>
+            </h3>
+            November 2024 – November 2025
+          </div>
+        </div>
+        <div class="d-flex align-items-center gap-5">
+          <img
+            class="education__logo"
+            src="./assets/img/technologies/Python-logo-notext.svg.png"
+            alt="Python logo"
+          />
+          <div>
+            <h3 class="pt-4">
+              <strong
+                >Full Stack Python/Django – Skillnest (Talento Digital
+                Scholarship)</strong
+              >
+            </h3>
+            May 2025 – November 2025
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

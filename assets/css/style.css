@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "PixelOperator";
+    src: url(../fonts/PixelOperator.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --bs-primary: #542350 !important;
+    --bs-body-font-family: "PixelOperator";
+    --bs-primary-subtle: #d9bcd8 !important;
+}
+
+body {
+    font-family: "PixelOperator", sans-serif;
+    color: var(--bs-primary);
+    font-size: 20px;
+}
+
+nav {
+    background-color: var(--bs-primary);
+}
+
+nav img {
+    width: 20rem;
+}
+
+.greeting {
+    background-color: var(--bs-primary-subtle);
+    width: 100%;
+    margin: 3rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    align-items: center;
+    font-size: 20px;
+}
+
+.greeting img {
+    width: 500px;
+}
+
+.projects{
+    background-color: var(--bs-primary-subtle);
+    padding-top: 3rem;
+}
+
+.projects a{
+    color: var(--bs-primary);
+}
+
+.technologies{
+    margin-top: 2rem;
+    padding-top: 3rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.technologies__logos{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+.technologies__logo{
+    height: 8rem;
+}
+
+.technologies__logo:hover{
+    scale: 1.1;
+}
+
+.education{
+    background-color: var(--bs-primary-subtle);
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.education__logo{
+    height: 3rem;
+}
