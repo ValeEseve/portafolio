@@ -97,6 +97,31 @@ nav img {
     color: #542350;
 }
 
+footer{
+    background-color: var(--bs-primary-subtle);
+    padding: 50px;
+}
+
+body.dark-mode {
+    --bs-primary: #f0d8ff !important;
+    --bs-primary-subtle: #2c112b !important;
+    color: #f0d8ff;
+    background-color: #121212;
+}
+
+body.dark-mode nav,
+body.dark-mode .greeting,
+body.dark-mode .projects,
+body.dark-mode .education,
+body.dark-mode footer {
+    background-color: var(--bs-primary-subtle);
+}
+
+body.dark-mode a {
+    color: #f0d8ff;
+}
+
+
 @media (min-width: 767px) {
     .greeting{
         display: grid;
@@ -114,6 +139,8 @@ nav img {
     .greeting-about-me{
         display: grid;
         grid-template-columns: 1fr 4fr;
+        justify-self: center;
+        width: 1000px;
     }
 
     .greeting{

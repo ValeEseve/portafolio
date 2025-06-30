@@ -18,7 +18,7 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg bs-primary text-white">
+    <nav class="navbar navbar-expand-lg bs-primary btn-dark text-white">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"
           ><img src="./assets/img/Logo_PurpleBG.png" alt=""
@@ -32,7 +32,7 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+         <i class="fas fa-bars fa-lg text-white"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -64,6 +64,13 @@
     </nav>
 
     <main>
+      <section class="control-panel">
+        <button id="control-panel__btn-dark"><i class="fa-solid fa-moon-stars"></i></button>
+        <div id="language-switcher">
+  <button id="control-panel__btn-en">EN</button>
+  <button id="control-panel__btn-es">ES</button>
+</div>
+      </section>
       <div class="greeting-about-me">
       <!-- GREETING -->
       <section class="d-flex justify-content-center mb-3">
@@ -239,11 +246,17 @@
         </div>
       </section>
     </main>
+    <footer class="text-center">
+      <p><i class="fa-solid fa-keyboard"></i> Developed by Vale Esevé</p>
+<p><i class="fa-solid fa-palette"></i> Designed by Ignacio Brossard - <a class="text-decoration-none" href="https://www.instagram.com/brossartworks/">@brossartworks</a></p>
 
+    </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
       crossorigin="anonymous"
     ></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="./assets/js/script.js"></script>
   </body>
 </html>
