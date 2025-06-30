@@ -1,11 +1,13 @@
 $(document).ready(function() {
+
+  // DARK MODE TOGGLE
   $("#control-panel__btn-dark").click(function() {
     $("body").toggleClass("dark-mode");
   });
 
 
 
-//   LANGUAGE TOOGLE
+//   LANGUAGE TOGGLE
  $("#control-panel__btn-en").click(function () {
     $(".i18n").each(function () {
       const texto = $(this).data("en");

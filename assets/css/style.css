@@ -35,6 +35,13 @@ nav img {
     width: 20rem;
 }
 
+nav button{
+    margin: 7px 20px;
+    color: white;
+    border: none;
+    background-color: var(--bs-primary);
+}
+
 .greeting,
 .projects,
 .education,
@@ -124,6 +131,7 @@ body.dark-mode {
 }
 
 body.dark-mode nav,
+body.dark-mode nav button,
 body.dark-mode .greeting,
 body.dark-mode .projects,
 body.dark-mode .education,
