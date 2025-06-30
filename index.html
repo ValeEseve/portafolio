@@ -10,9 +10,12 @@
       integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.7.2/css/all.css"
+    />
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
-
 
   <body>
     <nav class="navbar navbar-expand-lg bs-primary text-white">
@@ -34,19 +37,26 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active text-white" aria-current="page" href="#"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#about_me">About Me</a>
+              <a class="nav-link text-white" href="#about_me">About Me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#projects">Projects</a>
+              <a class="nav-link text-white" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#technologies">Technologies</a>
+              <a class="nav-link text-white" href="#technologies"
+                >Technologies</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#education">Education</a>
+              <a class="nav-link text-white" href="#education">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#contact_me">Contact Me</a>
             </li>
           </ul>
         </div>
@@ -54,48 +64,39 @@
     </nav>
 
     <main>
+      <div class="greeting-about-me">
       <!-- GREETING -->
       <section class="d-flex justify-content-center mb-3">
         <div class="bs-primary-subtle greeting">
           <img src="./assets/img/ImagenPixelart.png" alt="Pixel art portrait" />
-          <h2 class="fw-bold">I'M VALENTINA SEGURA</h2>
-          <h5>a.k.a. Vale Esevé!</h5>
-          <p>
-            A passionate Full Stack Web Developer in training, currently focused
-            on building with Python/Django and React/Node.js
-          </p>
+          <div class="about-me__text">
+            <h2 class="fw-bold">I'M VALENTINA SEGURA</h2>
+            <h5>a.k.a. Vale Esevé!</h5>
+            <p>
+              A passionate Full Stack Web Developer in training, currently
+              focused on building with Python/Django and React/Node.js
+            </p>
+          </div>
         </div>
       </section>
       <!-- ABOUT ME -->
       <section id="about_me" class="d-flex flex-column align-items-center p-5">
         <h3 class="fw-bold">ABOUT ME_</h3>
         <p>
-          Since childhood, I’ve been deeply interested in both technology and
-          the arts. My first encounter with programming was through the Warcraft
-          III map editor, where I learned to build mini-maps, code encounters,
-          and create cinematics. <br />
-          Even though programming fascinated me, I initially saw it as a hobby
-          and pursued a more humanistic path. I studied Pedagogy and Social Work
-          — but life had other plans and eventually led me to where I truly
-          belong: the world of IT. <br />
-          What truly motivates me is developing meaningful solutions that can
-          have a positive impact on the world. <br />
-          Currently, I'm focusing on web development with Python and JavaScript,
-          but I’m excited to eventually explore how these skills intersect with
-          DevOps and IoT. <br />
-          I’m committed to building a long-term career in tech, and I’ve found
-          that my background gives me a unique lens to approach technical
-          challenges.
+          Since childhood, I’ve been passionate about both technology and creativity. My first experience with code came through the Warcraft III map editor, where I built maps, designed encounters, and scripted cinematic sequences.</p>
+         <p>Although I initially pursued a humanistic path through Pedagogy and Social Work, I’ve found my true place in tech — where I can blend logic, empathy, and curiosity to build meaningful solutions.</p>
+         <p>I’m currently focused on web development with Python and JavaScript, with growing interest in DevOps and IoT. I bring strong analytical thinking, adaptability, and a commitment to continuous learning. My background allows me to approach technical challenges from a people-centered perspective.</p>
         </p>
       </section>
-
+      </div>
       <!-- PROJECTS -->
-      <section id="projects"
+      <section
+        id="projects"
         class="bs-primary-subtle w-100 d-flex flex-column align-items-center projects"
       >
         <h3 class="fw-bold">PROJECTS_</h3>
         <div class="p-5">
-          <img
+          <img class="w-100"
             src="./assets/img/currencyconverter.jpeg"
             alt="Currency Converter img"
           />
@@ -131,7 +132,8 @@
         </div>
       </section>
       <!-- TECHNOLOOGIES -->
-      <section id="technologies"
+      <section
+        id="technologies"
         class="d-flex flex-column flex-wrap align-items-center bs-primary-subtle technologies"
       >
         <h3 class="fw-bold">TECHNOLOGIES_</h3>
@@ -223,6 +225,17 @@
             </h3>
             May 2025 – November 2025
           </div>
+        </div>
+      </section>
+      <section class="d-flex justify-content-center flex-column p-5">
+        <h3 id="contact_me" class="fw-bold text-center mb-3">CONTACT ME_</h3>
+        <div class="contact mt-3">
+          <p>
+            <i class="fa-solid fa-square-envelope"></i> vale.eseve@gmail.com
+          </p>
+          <a href="https://github.com/ValeEseve" target="_blank"
+            ><p><i class="fa-brands fa-github"></i> ValeEseve</p></a
+          >
         </div>
       </section>
     </main>
