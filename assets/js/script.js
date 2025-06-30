@@ -6,19 +6,23 @@ $(document).ready(function() {
 
 
 //   LANGUAGE TOOGLE
-  $("#control-panel__btn-en").click(() => {
-    $(".i18n").each(() => {
-        const text = $(this).data("en")
-        $(this).text(text)
-    })
-  })
+ $("#control-panel__btn-en").click(function () {
+    $(".i18n").each(function () {
+      const texto = $(this).data("en");
+      if (texto) {
+        $(this).text(texto);
+      }
+    });
+  });
 
-  $("#control-panel__btn-es").click(() => {
-    $(".i18n").each(() => {
-        const text = $(this).data("es")
-        $(this).text(text)
-    })
-  })
+  $("#control-panel__btn-es").click(function () {
+    $(".i18n").each(function () {
+      const texto = $(this).data("es");
+      if (texto) {
+        $(this).text(texto);
+      }
+    });
+  });
 
 
 

@@ -1,262 +1,168 @@
 <!DOCTYPE html>
+
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio - Vale Esevé</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://site-assets.fontawesome.com/releases/v6.7.2/css/all.css"
-    />
-    <link rel="stylesheet" href="./assets/css/style.css" />
-  </head>
-
-  <body>
-    <nav class="navbar navbar-expand-lg bs-primary btn-dark text-white">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#"
-          ><img src="./assets/img/Logo_PurpleBG.png" alt=""
-        /></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-         <i class="fas fa-bars fa-lg text-white"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active text-white" aria-current="page" href="#"
-                >Home</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#about_me">About Me</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#projects">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#technologies"
-                >Technologies</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#education">Education</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#contact_me">Contact Me</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
-    <main>
-      <section class="control-panel">
-        <button id="control-panel__btn-dark"><i class="fa-solid fa-moon-stars"></i></button>
-        <div id="language-switcher">
-  <button id="control-panel__btn-en">EN</button>
-  <button id="control-panel__btn-es">ES</button>
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Portfolio - Vale Esevé</title>
+<link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" rel="stylesheet"/>
+<link href="https://site-assets.fontawesome.com/releases/v6.7.2/css/all.css" rel="stylesheet"/>
+<link href="./assets/css/style.css" rel="stylesheet"/>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg bs-primary btn-dark text-white">
+<div class="container-fluid">
+<a class="navbar-brand" href="#"><img alt="" src="./assets/img/Logo_PurpleBG.png"/></a>
+<button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse" type="button">
+<i class="fas fa-bars fa-lg text-white"></i>
+</button>
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+<li class="nav-item">
+<a aria-current="page" class="i18n nav-link active text-white" data-en="Home" data-es="Inicio" href="#">Home</a>
+</li>
+<li class="nav-item">
+<a class="i18n nav-link text-white" data-en="About Me" data-es="Sobre mí" href="#about_me">About Me</a>
+</li>
+<li class="nav-item">
+<a class="i18n nav-link text-white" data-en="Projects" data-es="Proyectos" href="#projects">Projects</a>
+</li>
+<li class="nav-item">
+<a class="i18n nav-link text-white" data-en="Technologies" data-es="Tecnologías" href="#technologies">Technologies</a>
+</li>
+<li class="nav-item">
+<a class="i18n nav-link text-white" data-en="Education" data-es="Formación" href="#education">Education</a>
+</li>
+<li class="nav-item">
+<a class="i18n nav-link text-white" data-en="Contact Me" data-es="Contáctame" href="#contact_me">Contact Me</a>
+</li>
+</ul>
 </div>
-      </section>
-      <div class="greeting-about-me">
-      <!-- GREETING -->
-      <section class="d-flex justify-content-center mb-3">
-        <div class="bs-primary-subtle greeting">
-          <img src="./assets/img/ImagenPixelart.png" alt="Pixel art portrait" />
-          <div class="about-me__text">
-            <h2 class="fw-bold">I'M VALENTINA SEGURA</h2>
-            <h5>a.k.a. Vale Esevé!</h5>
-            <p>
+</div>
+</nav>
+<main>
+<section class="control-panel">
+<button id="control-panel__btn-dark"><i class="fa-solid fa-moon-stars"></i></button>
+<div id="language-switcher">
+<button id="control-panel__btn-en">EN</button>
+<button id="control-panel__btn-es">ES</button>
+</div>
+</section>
+<div class="greeting-about-me">
+<!-- GREETING -->
+<section class="d-flex justify-content-center mb-3">
+<div class="bs-primary-subtle greeting">
+<img alt="Pixel art portrait" src="./assets/img/ImagenPixelart.png"/>
+<div class="about-me__text">
+<h2 class="fw-bold i18n" data-en="I'M VALENTINA SEGURA" data-es="MI NOMBRE ES VALENTINA SEGURA">I'M VALENTINA SEGURA</h2>
+<h5 class="i18n" data-en="a.k.a. Vale Esevé!" data-es="también conocida como Vale Esevé!">a.k.a. Vale Esevé!</h5>
+<p class="i18n" data-es="Desarrolladora Full Stack en formación, actualmente enfocada en construir con Python/Django y React/Node.js" data-en="A passionate Full Stack Web Developer in training, currently
+              focused on building with Python/Django and React/Node.js">
               A passionate Full Stack Web Developer in training, currently
               focused on building with Python/Django and React/Node.js
             </p>
-          </div>
-        </div>
-      </section>
-      <!-- ABOUT ME -->
-      <section id="about_me" class="d-flex flex-column align-items-center p-5">
-        <h3 class="fw-bold">ABOUT ME_</h3>
-        <p>
+</div>
+</div>
+</section>
+<!-- ABOUT ME -->
+<section class="i18n d-flex flex-column align-items-center p-5" id="about_me">
+<h3 class="i18n fw-bold" data-en="ABOUT ME_" data-es="SOBRE MÍ_">ABOUT ME_</h3>
+<p class="i18n" data-en="Since childhood, I’ve been passionate about both technology and creativity. My first experience with code came through the Warcraft III map editor, where I built maps, designed encounters, and scripted cinematic sequences." data-es="Desde la infancia he sido una apasionada tanto por la tecnología como por la creatividad. Mi primera experiencia con código fue con el editor de mapas de Warcraft III, donde creaba mapas, diseñaba encuentros y guionaba cinemáticas.">
           Since childhood, I’ve been passionate about both technology and creativity. My first experience with code came through the Warcraft III map editor, where I built maps, designed encounters, and scripted cinematic sequences.</p>
-         <p>Although I initially pursued a humanistic path through Pedagogy and Social Work, I’ve found my true place in tech — where I can blend logic, empathy, and curiosity to build meaningful solutions.</p>
-         <p>I’m currently focused on web development with Python and JavaScript, with growing interest in DevOps and IoT. I bring strong analytical thinking, adaptability, and a commitment to continuous learning. My background allows me to approach technical challenges from a people-centered perspective.</p>
-        </p>
-      </section>
-      </div>
-      <!-- PROJECTS -->
-      <section
-        id="projects"
-        class="bs-primary-subtle w-100 d-flex flex-column align-items-center projects"
-      >
-        <h3 class="fw-bold">PROJECTS_</h3>
-        <div class="p-5">
-          <img class="w-100"
-            src="./assets/img/currencyconverter.jpeg"
-            alt="Currency Converter img"
-          />
-          <h4 class="fw-bold mt-3">Currency Converter</h4>
-          <a
-            href="https://github.com/ValeEseve/ConversorDeMoneda"
-            target="_blank"
-            >🔗 GitHub Repo
+<p class="i18n" data-en="Although I initially pursued a humanistic path through Pedagogy and Social Work, I’ve found my true place in tech — where I can blend logic, empathy, and curiosity to build meaningful solutions." data-es="Aunque inicialmente seguí un camino humanista a través de Pedagogía y Trabajo Social, encontré mi verdadero lugar en la tecnología, donde puedo combinar lógica, empatía y curiosidad para construir soluciones significativas.">Although I initially pursued a humanistic path through Pedagogy and Social Work, I’ve found my true place in tech — where I can blend logic, empathy, and curiosity to build meaningful solutions.</p>
+<p class="i18n" data-en="I’m currently focused on web development with Python and JavaScript, with growing interest in DevOps and IoT. I bring strong analytical thinking, adaptability, and a commitment to continuous learning. My background allows me to approach technical challenges from a people-centered perspective." data-es="Actualmente estoy enfocada en el desarrollo web con Python y JavaScript, con un creciente interés en DevOps e IoT. Aporto pensamiento analítico, adaptabilidad y un compromiso con el aprendizaje continuo. Mi formación me permite abordar desafíos técnicos desde una perspectiva centrada en las personas.">I’m currently focused on web development with Python and JavaScript, with growing interest in DevOps and IoT. I bring strong analytical thinking, adaptability, and a commitment to continuous learning. My background allows me to approach technical challenges from a people-centered perspective.</p>
+
+</section>
+</div>
+<!-- PROJECTS -->
+<section class="bs-primary-subtle w-100 d-flex flex-column align-items-center projects" id="projects">
+<h3 class="i18n fw-bold" data-en="PROJECTS_" data-es="PROYECTOS_">PROJECTS_</h3>
+<div class="p-5">
+<img alt="Currency Converter img" class="w-100" src="./assets/img/currencyconverter.jpeg"/>
+<h4 class="i18n fw-bold mt-3" data-en="Currency Converter" data-es="Conversor de Moneda">Currency Converter</h4>
+<a href="https://github.com/ValeEseve/ConversorDeMoneda" target="_blank">🔗 GitHub Repo
           </a>
-          <p>
+<p class="i18n" data-en="In this project, I learned to consume public APIs and display the
+            data in a clear and informative way." data-es="En este proyecto aprendí a consultar APIs públicas y mostrar los datos de forma clara e informativa.">
             In this project, I learned to consume public APIs and display the
             data in a clear and informative way.
           </p>
-          <p>
-            <strong>Technologies:</strong> HTML, CSS, JavaScript, Bootstrap,
+<strong class="i18n" data-en="Technologies:" data-es="Tecnologías:">Technologies:</strong><p> HTML, CSS, JavaScript, Bootstrap,
             ExchangeRate API
           </p>
-        </div>
-        <div class="p-5 w-100">
-          <img class="w-100" src="./assets/img/pizzeriamammamia.jpeg"
-          alt="Pizzeria Mamma Mia" img">
-          <h4 class="fw-bold mt-3">Pizzería Mamma Mia</h4>
-          <a
-            href="https://github.com/ValeEseve/PizzeriaMammaMia"
-            target="_blank"
-            >🔗 GitHub Repo
+</div>
+<div class="p-5 w-100">
+<img alt="Pizzeria Mamma Mia" class="w-100" img"="" src="./assets/img/pizzeriamammamia.jpeg"/>
+<h4 class="i18n fw-bold mt-3" data-en="Pizzería Mamma Mia" data-es="Pizzería Mamma Mia">Pizzería Mamma Mia</h4>
+<a href="https://github.com/ValeEseve/PizzeriaMammaMia" target="_blank">🔗 GitHub Repo
           </a>
-          <p>
+<p class="i18n" data-es="Una página actualmente en construcción utilizando React y Bootstrap para construir una interfaz de usuario dinámica." data-en="A page currently under construction using React and Bootstrap to
+            build a dynamic user interface.">
             A page currently under construction using React and Bootstrap to
             build a dynamic user interface.
           </p>
-          <p><strong>Technologies:</strong> React, Bootstrap, JSX</p>
-        </div>
-      </section>
-      <!-- TECHNOLOOGIES -->
-      <section
-        id="technologies"
-        class="d-flex flex-column flex-wrap align-items-center bs-primary-subtle technologies"
-      >
-        <h3 class="fw-bold">TECHNOLOGIES_</h3>
-        <h4 class="fw-bold mt-3 mb-3">Currently learning_</h4>
-        <div class="technologies__logos">
-          <img
-            class="technologies__logo"
-            src="./assets/img/technologies/Postgresql_elephant.svg.png"
-            alt="PostgreQl logo"
-          />
-          <img
-            class="technologies__logo"
-            src="./assets/img/technologies/react.png"
-            alt="PostgreQl logo"
-          />
-          <img
-            class="technologies__logo"
-            src="./assets/img/technologies/Node.js_logo.png"
-            alt="Node.js logo"
-          />
-          <img
-            class="technologies__logo"
-            src="./assets/img/technologies/django-icon.svg"
-            alt="Django logo"
-          />
-        </div>
-        <h4 class="fw-bold mt-3 mb-3">Also familiar with_</h4>
-        <div class="technologies__logos">
-          <img
-            class="technologies__logo"
-            src="./assets/img/technologies/html.png"
-            alt="HTML logo"
-          />
-          <img
-            class="technologies__logo"
-            src="./assets/img/technologies/CSS3_logo_and_wordmark.svg.png"
-            alt="CSS logo"
-          />
-          <img
-            class="technologies__logo"
-            src="./assets/img/technologies/JavaScript-logo.png"
-            alt="JavaScript logo"
-          />
-          <img
-            class="technologies__logo"
-            src="./assets/img/technologies/Bootstrap_logo.svg.png"
-            alt="Bootstrap logo"
-          />
-          <img
-            class="technologies__logo"
-            src="./assets/img/technologies/Python-logo-notext.svg.png"
-            alt="Python logo"
-          />
-          <img
-            class="technologies__logo"
-            src="./assets/img/technologies/Octicons-mark-github.svg"
-            alt="GitHub logo"
-          />
-        </div>
-      </section>
-      <!-- EDUCATION -->
-      <section id="education" class="education d-flex flex-column p-5 mt-5">
-        <h2 class="text-center pb-2"><strong>EDUCATION_</strong></h2>
-        <div class="d-flex align-items-center gap-5">
-          <img
-            class="education__logo"
-            src="./assets/img/technologies/JavaScript-logo.png"
-            alt="JavaScript logo"
-          />
-          <div>
-            <h3 class="pt-4">
-              <strong>Full Stack JavaScript – Desafío Latam</strong>
-            </h3>
-            November 2024 – November 2025
-          </div>
-        </div>
-        <div class="d-flex align-items-center gap-5">
-          <img
-            class="education__logo"
-            src="./assets/img/technologies/Python-logo-notext.svg.png"
-            alt="Python logo"
-          />
-          <div>
-            <h3 class="pt-4">
-              <strong
-                >Full Stack Python/Django – Skillnest (Talento Digital
-                Scholarship)</strong
-              >
-            </h3>
-            May 2025 – November 2025
-          </div>
-        </div>
-      </section>
-      <section class="d-flex justify-content-center flex-column p-5">
-        <h3 id="contact_me" class="fw-bold text-center mb-3">CONTACT ME_</h3>
-        <div class="contact mt-3">
-          <p>
-            <i class="fa-solid fa-square-envelope"></i> vale.eseve@gmail.com
+<strong class="i18n" data-en="Technologies:" data-es="Tecnologías:">Technologies:</strong> <p class="i18n" data-en="React, Bootstrap, JSX" data-es="React, Bootstrap, JSX">React, Bootstrap, JSX</p>
+</div>
+</section>
+<!-- TECHNOLOOGIES -->
+<section class="d-flex flex-column flex-wrap align-items-center bs-primary-subtle technologies" id="technologies">
+<h3 class="i18n fw-bold" data-en="TECHNOLOGIES_" data-es="TECNOLOGÍAS_">TECHNOLOGIES_</h3>
+<h4 class="i18n fw-bold mt-3 mb-3" data-en="Currently learning_" data-es="Actualmente aprendiendo_">Currently learning_</h4>
+<div class="technologies__logos">
+<img alt="PostgreQl logo" class="technologies__logo" src="./assets/img/technologies/Postgresql_elephant.svg.png">
+<img alt="PostgreQl logo" class="technologies__logo" src="./assets/img/technologies/react.png"/>
+<img alt="Node.js logo" class="technologies__logo" src="./assets/img/technologies/Node.js_logo.png"/>
+<img alt="Django logo" class="technologies__logo" src="./assets/img/technologies/django-icon.svg"/>
+</img></div>
+<h4 class="i18n fw-bold mt-3 mb-3" data-en="Also familiar with_" data-es="También familiarizada con_">Also familiar with_</h4>
+<div class="technologies__logos">
+<img alt="HTML logo" class="technologies__logo" src="./assets/img/technologies/html.png"/>
+<img alt="CSS logo" class="technologies__logo" src="./assets/img/technologies/CSS3_logo_and_wordmark.svg.png"/>
+<img alt="JavaScript logo" class="technologies__logo" src="./assets/img/technologies/JavaScript-logo.png"/>
+<img alt="Bootstrap logo" class="technologies__logo" src="./assets/img/technologies/Bootstrap_logo.svg.png"/>
+<img alt="Python logo" class="technologies__logo" src="./assets/img/technologies/Python-logo-notext.svg.png"/>
+<img alt="GitHub logo" class="technologies__logo" src="./assets/img/technologies/Octicons-mark-github.svg"/>
+</div>
+</section>
+<!-- EDUCATION -->
+<section class="education d-flex flex-column p-5 mt-5" id="education">
+<h2 class="text-center pb-2"><strong class="i18n" data-en="EDUCATION_" data-es="FORMACIÓN_">EDUCATION_</strong></h2>
+<div class="d-flex align-items-center gap-5">
+<img alt="JavaScript logo" class="education__logo" src="./assets/img/technologies/JavaScript-logo.png"/>
+<div>
+<h3 class="pt-4">
+<strong class="i18n" data-en="Full Stack JavaScript – Desafío Latam" data-es="Full Stack JavaScript – Desafío Latam">Full Stack JavaScript – Desafío Latam</strong>
+</h3>
+<p class="i18n" data-en="November 2024 – November 2025" data-es="Noviembre 2024 – Noviembre 2025">November 2024 – November 2025</p>
+</div>
+</div>
+<div class="d-flex align-items-center gap-5">
+<img alt="Python logo" class="education__logo" src="./assets/img/technologies/Python-logo-notext.svg.png"/>
+<div>
+<h3 class="pt-4">
+<strong class="i18n" data-en="Full Stack Python/Django – Skillnest (Talento Digital Scholarship)" data-es="Full Stack Python/Django – Skillnest (Beca Talento Digital)">Full Stack Python/Django – Skillnest (Talento Digital
+                Scholarship)</strong>
+</h3>
+<p class="i18n" data-en="May 2025 – November 2025" data-es="Mayo 2025 – Noviembre 2025">May 2025 – November 2025</p>
+</div>
+</div>
+</section>
+<section class="d-flex justify-content-center flex-column p-5">
+<h3 class="i18n fw-bold text-center mb-3" data-en="CONTACT ME_" data-es="CONTÁCTAME_" id="contact_me">CONTACT ME_</h3>
+<div class="contact mt-3">
+<p>
+<i class="fa-solid fa-square-envelope"></i> vale.eseve@gmail.com
           </p>
-          <a href="https://github.com/ValeEseve" target="_blank"
-            ><p><i class="fa-brands fa-github"></i> ValeEseve</p></a
-          >
-        </div>
-      </section>
-    </main>
-    <footer class="text-center">
-      <p><i class="fa-solid fa-keyboard"></i> Developed by Vale Esevé</p>
-<p><i class="fa-solid fa-palette"></i> Designed by Ignacio Brossard - <a class="text-decoration-none" href="https://www.instagram.com/brossartworks/">@brossartworks</a></p>
-
-    </footer>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
-      crossorigin="anonymous"
-    ></script>
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-    <script src="./assets/js/script.js"></script>
-  </body>
+<a href="https://github.com/ValeEseve" target="_blank"><p><i class="fa-brands fa-github"></i> ValeEseve</p></a>
+</div>
+</section>
+</main>
+<footer class="text-center">
+<p><i class="fa-solid fa-keyboard"></i> <p class="i18n" data-en="Developed by Vale Esevé" data-es="Desarrollado por Vale Esevé">Developed by Vale Esevé</p></p>
+<p><i class="fa-solid fa-palette"></i> <p class="i18n" data-en="Designed by Ignacio Brossard -" data-es="Diseñado por Ignacio Brossard">Designed by Ignacio Brossard - </p><a class="text-decoration-none" href="https://www.instagram.com/brossartworks/" target="_blank">@brossartworks</a></p>
+</footer>
+<script crossorigin="anonymous" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+<script crossorigin="anonymous" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="./assets/js/script.js"></script>
+</body>
 </html>

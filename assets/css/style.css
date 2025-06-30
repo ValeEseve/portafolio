@@ -20,6 +20,11 @@ body {
     font-family: "PixelOperator", sans-serif;
     color: var(--bs-primary);
     font-size: 20px;
+    transition: background-color 0.6s ease, color 0.6s ease;
+}
+
+body a {
+    color: var(--bs-primary);
 }
 
 nav {
@@ -29,6 +34,15 @@ nav {
 nav img {
     width: 20rem;
 }
+
+.greeting,
+.projects,
+.education,
+footer,
+nav {
+    transition: background-color 0.6s ease, color 0.6s ease;
+}
+
 
 .greeting {
     background-color: var(--bs-primary-subtle);
@@ -92,12 +106,12 @@ nav img {
     height: 3rem;
 }
 
-.contact a{
+.contact a {
     text-decoration: none;
     color: #542350;
 }
 
-footer{
+footer {
     background-color: var(--bs-primary-subtle);
     padding: 50px;
 }
@@ -123,12 +137,12 @@ body.dark-mode a {
 
 
 @media (min-width: 767px) {
-    .greeting{
+    .greeting {
         display: grid;
         grid-template-columns: 1fr 6fr;
     }
 
-    .greeting img{
+    .greeting img {
         width: 20rem;
     }
 
@@ -136,14 +150,14 @@ body.dark-mode a {
 }
 
 @media (min-width: 1025px) {
-    .greeting-about-me{
+    .greeting-about-me {
         display: grid;
         grid-template-columns: 1fr 4fr;
         justify-self: center;
         width: 1000px;
     }
 
-    .greeting{
+    .greeting {
         display: flex;
         flex-direction: column;
         width: 100%;
